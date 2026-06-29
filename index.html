@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>أكثر موقع تافه في العالم</title>
+    <style>
+        body { text-align: center; margin-top: 20%; font-family: sans-serif; background-color: #f0f0f0; }
+        button { padding: 20px 40px; font-size: 20px; cursor: pointer; border: none; border-radius: 10px; background-color: #ff4757; color: white; }
+    </style>
+</head>
+<body>
+
+    <h1>لا تضغط هذا الزر</h1>
+    <button id="uselessBtn">اضغط هنا</button>
+
+    <script>
+        document.getElementById('uselessBtn').onclick = function() {
+            alert('ألم أقل لك ألا تضغط؟ أنت الآن أضعت 3 ثوانٍ من حياتك.');
+            document.body.style.backgroundColor = 'yellow';
+        };
+    </script>
+</body>
+</html>
